@@ -31,7 +31,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
 {
     pSendButton           = new QPushButton(tr("Send"));
-    pLineEditDestinataire = new QLineEdit("+393498122332");
+    pLineEditDestinataire = new QLineEdit("+390000000000");
     pLineEditTexte        = new QLineEdit("Caspita Funziona !!!");
 
     connect(pSendButton, SIGNAL(clicked()),
